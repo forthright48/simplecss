@@ -5,6 +5,14 @@
   margin-left: auto;
   padding-right: 2rem;
   padding-left: 2rem;
+
+  min-height: 99vh;
+
+  display: -webkit-flex; display: -ms-flexbox; display: -webkit-box;
+  display: flex;
+
+  -webkit-flex-direction: column; -ms-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal;
+  flex-direction: column;
 }
 
 .row {
@@ -22,8 +30,28 @@
   -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
-  margin-right: -1rem;
-  margin-left: -1rem;
+  margin-right: 0.5 rem;
+  margin-left: 0.5 rem;
+}
+
+.tower {
+  box-sizing: border-box;
+
+  display: -webkit-flex; display: -ms-flexbox; display: -webkit-box;
+  display: flex;
+
+  -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; -webkit-box-flex: 0;
+  flex: 0 1 auto;
+
+  -webkit-flex-direction: column; -ms-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal;
+  flex-direction: column;
+
+  -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin-right: 0.5 rem;
+  margin-left: 0.5 rem;
+
 }
 
 .row.reverse {
@@ -31,12 +59,12 @@
   flex-direction: row-reverse;
 }
 
-.col.reverse {
+.item.reverse {
   -webkit-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -webkit-box-orient: vertical; -webkit-box-direction: reverse;
   flex-direction: column-reverse;
 }
 
-.col {
+.item {
   box-sizing: border-box;
 
   -webkit-flex: 0 0 auto; -ms-flex: 0 0 auto; -webkit-box-flex: 0;
@@ -222,7 +250,7 @@
 
 .last {
   -webkit-order: 1; -ms-flex-order: 1; -webkit-box-ordinal-group: 2;
-  order: 1; 
+  order: 1;
 }
 
 @media only screen and (min-width: 48em) {
@@ -239,6 +267,6 @@
 
 @media only screen and (min-width: 75em) {
   .container {
-    width: 71rem;
+    width: 960px;
   }
 }
