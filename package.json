@@ -1,0 +1,24 @@
+{
+  "name": "@forthright48/simplecss",
+  "version": "1.0.0",
+  "description": "A simple css library using flexbox for layout",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forthright48/simplecss.git"
+  },
+  "keywords": [
+    "css",
+    "simplecss",
+    "flexbox"
+  ],
+  "author": "Mohammad Samiul Islam (forthright48)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forthright48/simplecss/issues"
+  },
+  "homepage": "https://github.com/forthright48/simplecss#readme"
+}
