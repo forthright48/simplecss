@@ -270,3 +270,8 @@
     width: 960px;
   }
 }
+
+/*Fonts for the library*/
+body {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
