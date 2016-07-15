@@ -375,7 +375,6 @@ p {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
     padding: 1.2rem 1.6rem;
     text-decoration: none;
     display: block;
@@ -388,7 +387,7 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #939393;
+    background-color: mistyrose;
 }
 
 /* Navbar
@@ -415,5 +414,5 @@ p {
 }
 
 .nav li:hover {
-    background-color: #d3d3d3;
+    background-color: mistyrose;
 }
