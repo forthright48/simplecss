@@ -1,6 +1,8 @@
 ## Next Release
 ### Change
-- Dropdown Content has min-width: 200% with no white space wrap.
+- Dropdown Content has min-width: 200% with no white space wrap
+### Fixed
+- Mistake in LICENSE.md. Author name fixed.
 
 ## [1.1.1] 2016-7-15
 ### Added
