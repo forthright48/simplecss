@@ -1,3 +1,7 @@
+## Next Release
+### Change
+- Dropdown Content has min-width: 200% with no white space wrap.
+
 ## [1.1.1] 2016-7-15
 ### Added
 - Utilities: u-flex-center

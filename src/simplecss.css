@@ -377,7 +377,8 @@ p {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 40rem;
+    min-width: 200%;
+    white-space: nowrap;
     box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0,0,0,0.2);
 }
 
