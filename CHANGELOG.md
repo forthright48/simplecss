@@ -1,6 +1,7 @@
 ## Next Release
 ### Change
 - Dropdown Content has min-width: 200% with no white space wrap
+- No text decoration for links. Color is enough to determine links
 ### Fixed
 - Mistake in LICENSE.md. Author name fixed.
 

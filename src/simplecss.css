@@ -273,8 +273,10 @@
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-a:visited, a{
+a {
+  text-decoration: none;
+}
+a:visited{
   color: #0074D9;
 }
 
