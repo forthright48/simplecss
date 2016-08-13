@@ -22,6 +22,6 @@ module.exports = {
         ]
       }
     },
-    browsersync: ['./public/**/*.css', './public/**/*.js']
+    browsersync: ['./public/**/*.css', './public/**/*.js', './dist/**/*']
   }
 };
