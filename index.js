@@ -8,7 +8,7 @@ app.set('port', 8001);
 app.set('view engine', 'pug');
 
 app.use('/public', express.static(path.join(__dirname, '/public')));
-app.use('/public/css', express.static(path.join(__dirname, '/src')));
+app.use('/public/css', express.static(path.join(__dirname, '/dist')));
 
 app.get('/', getHome);
 app.get('/navbar', getNavbar);
