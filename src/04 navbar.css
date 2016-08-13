@@ -1,0 +1,29 @@
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.nav, .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(192, 252, 247, 1);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(192, 252, 247, 1);
+  box-shadow: -1px 4px 5px 0px rgba(192, 252, 247, 1);
+  margin-bottom: 1.6rem;
+}
+.nav li {
+  text-align: center;
+}
+.nav> li {
+  display: inline-block;
+}
+.nav a {
+  padding: 1rem;
+  display: block;
+  /*So that link expands to the whole container*/
+  text-decoration: none;
+}
+.nav li:hover {
+  background-color: mistyrose;
+}
